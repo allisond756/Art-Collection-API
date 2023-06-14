@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+    <title>Impressionism Collection</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <header>A Collection of Impressionist Paintings</header>
+        </div>
+        <div class="gallery">
+            <figure class="gallery__item gallery__item--4" id="fig1" onclick="event.stopPropagation; getInfo(this.id, event)">
+                <img src="images/1933.452 - Young Woman Sewing.jpg" alt="14647" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--3" id="fig2" onclick="event.stopPropagation; getInfo(this.id, event)">
+                <img src="images/1937.1042 - The White Bridge.jpg" alt="25872" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--1" id="fig3" onclick="event.stopPropagation; getInfo(this.id, event)">
+                <img src="/images/1933.1157 - Water Lilies.jpg" alt="16568" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--6" id="fig4" onclick="event.stopPropagation; getInfo(this.id, event)">
+                <img src="images/1986.421 - The Little Pond.jpg" alt="105462" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--2" id="fig5" onclick="event.stopPropagation; getInfo(this.id, event)">
+                <img src="images/1922.437 - Lunch at the Restaurant Fournaise.jpg" alt="81555" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--5" id="fig6" onclick="event.stopPropagation; getInfo(this.id, event); openWindow">
+                <img src="images/1933.422 - Auvers, Panoramic View.jpg" alt="14556" class="gallery__img">
+            </figure>
+        </div>
+    </div>
+</body>
+</html>
